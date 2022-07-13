@@ -1,0 +1,2 @@
+npx sequelize-cli model:generate --name user --attributes firstName:string,lastName:string,email:string,password:string
+npx sequelize-cli model:generate --name chat --attributes message:text,sender:integer,receiver:integer
